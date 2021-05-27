@@ -1,0 +1,106 @@
+nav {
+    padding: 0px 40px;
+}
+
+nav li a {
+    font-family: cursive;
+}
+
+nav li a:hover {
+    background-color: cornflowerblue;
+    color: gold;
+}
+
+.text {
+    color: orange;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.title {
+    color: blue;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.img {
+    filter: blur(5px);
+}
+
+.collection {
+    border: 1px solid white;
+}
+
+.btn {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: orange;
+}
+
+.Testimonials {
+    background-image: url(img/cladding.jpeg);
+    background-color: #065747;
+    background-blend-mode: darken;
+}
+
+.contact {
+    background-image: url(img/infinite-loop-03.jpg);
+    background-size: cover;
+    background-color: #065747;
+    background-blend-mode: darken;
+}
+
+u {
+    border-bottom-style: dotted;
+}
+
+.jobs_description {
+    color: #fff;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.contact_us {
+    margin-top: 100px;
+}
+
+.contact_us .card {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 35px
+}
+
+.card-content {
+    color: red;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+}
+
+.collection-item a:hover {
+    color: red;
+}
